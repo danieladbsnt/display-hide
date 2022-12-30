@@ -1,0 +1,9 @@
+<h3 class="title">Hello World</h3>
+<form class="flex">
+  <select class="select col-11" name="tareas" id="tareas">
+    <option value="tareas">Tareas</option>
+  </select>
+  
+</form>
+<button (click)="toggle()" class="button btn btn-primary">{{btnValue}}</button>
+<app-hello-world *ngIf="!display" class="flex"></app-hello-world>

@@ -1,0 +1,14 @@
+.flex{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 600px;
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: 300;
+}
